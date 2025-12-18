@@ -33,6 +33,6 @@ public class Personagem
 
 public class Dialogo 
 {
-    public string Personagem { get; set; } // Ou talvez 'Character'?
-    public string Texto { get; set; }      // Ou talvez 'Content'?
+    public string Personagem { get; set; } = string.Empty;
+    public string Texto { get; set; } = string.Empty;
 }

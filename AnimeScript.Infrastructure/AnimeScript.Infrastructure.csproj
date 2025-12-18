@@ -12,4 +12,8 @@
   <ItemGroup>
     <ProjectReference Include="..\AnimeScript.Application\AnimeScript.Application.csproj" />
   </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Mscc.GenerativeAI" Version="3.0.0" />
+  </ItemGroup>
 </Project>
